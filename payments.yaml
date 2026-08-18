@@ -5,4 +5,4 @@
 regions:
   EMEA: { active_provider: adyen, fallback: stripe }
   NA:   { active_provider: stripe, fallback: adyen }
-  APAC: { active_provider: adyen, fallback: paypal }
+  APAC: { active_provider: paypal, fallback: adyen }
