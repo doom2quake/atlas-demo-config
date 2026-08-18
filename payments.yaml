@@ -1,5 +1,5 @@
 # Payment provider routing (per region).
-# Atlas opens PRs here to remediate incidents: when a region's active_provider
+# Atlas opens PRs here to remediate incidents. When a region active_provider
 # starts failing, Atlas flips it to the declared fallback and ships the change
 # as a real, reviewable Pull Request.
 regions:
